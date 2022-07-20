@@ -5,8 +5,8 @@ int main()
 {
     float a,b,c;//sides of a triangle
     printf("Enter the 3 sides of a triangle : ");
-    scanf("%0.2f %0.2f %0.2f",&a,&b,&c);
-    if((a+b)>c||(b+c)>a||(c+a)>b)
+    scanf("%f %f %f",&a,&b,&c);
+    if(((a+b)>c)&&((b+c)>a)&&((c+a)>b))
     {
         printf("The triangle is valid");
 
